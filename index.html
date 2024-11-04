@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oficina Mega Motors</title>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/logofundobranco.png" alt="">
+
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="services.html">Serviços</a>
+            <a href="contact.html">Contato</a>
+        </div>
+
+        <div class="nav-responsive">
+            <a href="index.html">Home</a>
+            <a href="services.html">Serviços</a>
+            <a href="contact.html">Contato</a>
+        </div>
+
+        <div class="menu-hamburguer">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </header>
+
+<!-- Home section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Bem-vindo a</h3>
+            <h1><span>Mega Motors!</span></h1>
+            <h3>A melhor oficina para o seu carro</h3>
+
+            <p>Há mais de 20 anos, nossa oficina mecânica tem se destacado na região continental de Florianópolis e em Biguaçu. Somos especialistas tanto em veículos importados quanto nacionais, oferecendo um atendimento especializado e soluções precisas para atender às necessidades específicas de cada tipo de automóvel. Nossa equipe altamente capacitada utiliza tecnologia de ponta e técnicas avançadas para garantir que seu veículo receba o melhor cuidado possível.</p>
+    
+            <div>
+                <a href="services.html" class="btn">Conhecer serviços!</a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="img/mechanic.png" alt="Mecânico">
+        </div>
+    </section>
+<!-- /Home section -->
+
+<!-- service section -->
+ <section class="services" id="services">
+    <h2>Nossas <span>oficinas</span></h2>
+
+    <div class="services-container">
+        <div class="services-box">
+            <i class='bx bxs-car-mechanic'></i>
+            <h3>Mega Motors Biguaçu</h3>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla aut perferendis obcaecati fuga veritatis, laboriosam quidem repellat illum quisquam iste!</p>
+
+            <a href="megabiguacu.html" class="btn">Saiba Mais</a>
+        </div>
+
+        <div class="services-box">
+            <i class='bx bxs-car-mechanic'></i>
+            <h3>Mega Motors Jardim Atlântico</h3>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla aut perferendis obcaecati fuga veritatis, laboriosam quidem repellat illum quisquam iste!</p>
+
+            <a href="megafloripa.html" class="btn">Saiba Mais</a>
+        </div>
+    </div>
+ </section>
+<!-- /service section -->
+
+<!-- Carrossel section -->
+<section>
+    <div class="carrossel">
+        <div class="slides">
+            <div class="slide active"><img src="img/fachada1.png" alt="Imagem 1"></div>
+            <div class="slide"><img src="img/oficinadoalto.png" alt="Imagem 2"></div>
+            <div class="slide"><img src="img/frente.png" alt="Imagem 3"></div>
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+    </div>
+</section>
+<!-- /Carrossel section -->
+
+
+
+<!-- Formas de pagamento section -->
+    <section class="rodape" id="rodape">
+        <div class="rodape-container">
+            <div class="rodape-box">
+                <h3>Formas de <span>pagamento</span></h3>
+                <ul>
+                    <li>Cartão de Crédito</li>
+                    <li>Cartão de Débito</li>
+                    <li>Pix</li>
+                </ul>
+            </div>
+    
+            <div class="rodape-box">
+                <h3>Horário de <span>funcionamento</span></h3>
+                <ul>
+                    <li>Segunda a Sexta – 07:30 ás 12:00</li>
+                    <li>Segunda a Sexta – 13:30 ás 18:30</li>
+                    <li>Domingos / Sábado & Feriados: Fechado</li>
+                </ul>
+            </div>
+    </section>
+<!-- /Formas de pagamento section -->
+<footer>
+    <p>Copyright &copy; 2024 by &lt;Oficina Mega Motors&gt;. Todos os direitos Reservados.</p>
+</footer>
+</body>
+<script src="js/javascript.js"></script>
+</html>
