@@ -530,6 +530,10 @@ footer {
     .map-box {
         width: 100%;
     }
+
+    .rodape-box {
+        padding: 0.5rem;
+    }
 }
 
 /* Small (sm): Smartophone (landscape) */
@@ -555,6 +559,10 @@ footer {
 
     .map-box {
         width: 100%;
+    }
+
+    .rodape-box {
+        padding: 0.5rem;
     }
 }
 
@@ -603,6 +611,10 @@ footer {
 
     .portifolio-container {
         grid-template-columns: auto auto;
+    }
+
+    .rodape-box {
+        padding: 0.5rem;
     }
 }
 
