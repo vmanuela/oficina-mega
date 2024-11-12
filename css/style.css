@@ -480,6 +480,10 @@ footer {
         padding: 6rem 2.5rem;
     }
 
+    .logo {
+        width: 50%;
+    }
+
     .home {
         flex-direction: column;
         gap: 1.2rem;
@@ -546,7 +550,10 @@ footer {
     .home-img {
         width: 65%;
         max-width: 65%;
+    }
 
+    .logo {
+        width: 50%;
     }
 
     .services-box {
@@ -579,6 +586,10 @@ footer {
 
     .nav-responsive, .nav-responsive a {
         display: none;
+    }
+
+    .logo {
+        width: 50%;
     }
 
     .home {
@@ -623,6 +634,10 @@ footer {
 
     .home-img {
         max-width: 35%;
+    }
+
+    .logo {
+        width: 15%;
     }
     
     .services-container {
