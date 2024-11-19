@@ -687,9 +687,10 @@ footer p {
 
 .carrossel {
     position: relative;
-    max-width: 100%;
+    max-width: 85%;
     margin: auto;
     overflow: hidden;
+    
 }
 
 .slides {
